@@ -1,0 +1,92 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+    body {
+
+        background-color: rgba(240, 128, 128, 0.625);
+
+    }
+
+    #container {
+
+        font-size: 60px;
+        padding: 20px;
+        margin-top: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+     button {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 80px;
+        margin: 20px;
+        padding: 50px;
+        border-radius: 50px;
+
+    } 
+    #aumenta button{
+
+        background-color: lightblue;
+
+    }
+
+    #diminui button {
+
+        background-color: lightgreen;
+    }
+
+     #resultado {
+
+        font-size: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        position: relative;
+        left: 330px;
+        bottom: 220px;
+
+    } 
+/* 
+    .cronometro {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+       
+        top: 600px;
+
+    }
+
+    
+    .timer {
+
+        font-size: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -200px;
+
+    }
+
+    .botoes button {
+
+        font-size: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -200px;
+
+    } */ 
